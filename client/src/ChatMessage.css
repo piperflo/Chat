@@ -1,0 +1,16 @@
+.ChatMessage {
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .ChatMessage-identity {
+    font-size: 1.2rem;
+  }
+  
+  .ChatMessage-identity > strong {
+    padding-right: 1rem;
+  }
+  
+  .ChatMessage-content {
+    font-size: 1rem;
+  }

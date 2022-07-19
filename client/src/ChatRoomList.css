@@ -1,0 +1,18 @@
+.ChatRoomList {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .ChatRoomList > button {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .ChatRoomList button.selected {
+    color: black;
+    background-color: white;
+    cursor: default;
+  }
